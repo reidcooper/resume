@@ -1,0 +1,84 @@
+name: AI Resume Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      instruction:
+        description: >
+          What to update in the resume. Be specific.
+          Examples:
+            "Update the tiger team bullet in Staff Engineer to add: 2.3M files migrated, $45k cost savings, completed in 3 weeks"
+            "Add a new bullet to SE II: Led the migration of X to Y, reducing latency by Z%"
+            "Rewrite the Summary to emphasize data engineering experience"
+        required: true
+        type: string
+
+jobs:
+  update:
+    name: Update resume with AI
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      models: read
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v6.0.2
+
+      - name: Install dependencies
+        run: sudo apt-get install -y jq
+
+      - name: Apply AI update to resume
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INSTRUCTION: ${{ inputs.instruction }}
+        run: |
+          RESUME=$(cat reid_cooper_resume.tex)
+          COPILOT_INSTRUCTIONS=$(cat .github/copilot-instructions.md)
+
+          PAYLOAD=$(jq -n \
+            --arg resume "$RESUME" \
+            --arg conventions "$COPILOT_INSTRUCTIONS" \
+            --arg instruction "$INSTRUCTION" \
+            '{
+              model: "gpt-4o",
+              temperature: 0.2,
+              messages: [
+                {
+                  role: "system",
+                  content: (
+                    "You are an expert resume editor specializing in software engineering resumes written in LaTeX. " +
+                    "You will be given the current resume source, the repository conventions, and an instruction. " +
+                    "Apply the instruction precisely and return ONLY the complete, updated LaTeX file. " +
+                    "Do not include any explanation, markdown code fences, or extra text — only the raw LaTeX content. " +
+                    "Preserve all formatting, commands, and structure that are not affected by the instruction. " +
+                    "Repository conventions:\n\n" + $conventions
+                  )
+                },
+                {
+                  role: "user",
+                  content: ("Current resume:\n\n" + $resume + "\n\nInstruction: " + $instruction)
+                }
+              ]
+            }')
+
+          RESPONSE=$(curl -sf https://models.inference.ai.azure.com/chat/completions \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD")
+
+          UPDATED=$(echo "$RESPONSE" | jq -r '.choices[0].message.content')
+
+          if [ -z "$UPDATED" ] || [ "$UPDATED" = "null" ]; then
+            echo "ERROR: AI returned empty response. Full API response:"
+            echo "$RESPONSE"
+            exit 1
+          fi
+
+          echo "$UPDATED" > reid_cooper_resume.tex
+          echo "Resume updated successfully."
+
+      - name: Commit updated resume
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        with:
+          commit_message: "AI resume update: ${{ inputs.instruction }}"

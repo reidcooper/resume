@@ -10,9 +10,11 @@ jobs:
   compile:
     name: Compile resume pdf
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6.0.2
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
         with:
@@ -20,7 +22,13 @@ jobs:
           options: -v ${{ github.workspace }}:/data
           run: |
             cd data
-            pdflatex sourabh_bajaj_resume.tex
-      - uses: stefanzweifel/git-auto-commit-action@v5
+            pdflatex reid_cooper_resume.tex
+      - name: Generate preview image
+        run: |
+          sudo apt-get install -y imagemagick ghostscript
+          sudo sed -i '/pattern="PDF"/s/rights="none"/rights="read|write"/' /etc/ImageMagick-*/policy.xml
+          convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[0]' -resize 25% resume_preview_p1.png
+          convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[1]' -resize 25% resume_preview_p2.png
+      - uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: Apply pdflatex changes
