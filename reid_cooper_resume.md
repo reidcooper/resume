@@ -1,0 +1,62 @@
+# Reid Cooper
+
+[reid.cooper8@gmail.com](mailto:reid.cooper8@gmail.com) | +1-123-456-7890 | [https://me.reidcooper.dev](https://me.reidcooper.dev)
+
+## Summary
+
+Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializing in microservice architecture, distributed systems, and platform reliability. Known for leading high-stakes engineering initiatives, scaling engineering culture through guilds and mentorship, and delivering complex systems across cross-functional teams at scale.
+
+## Education
+
+### Monmouth University -- West Long Branch, NJ
+**Master's of Science, Software Engineering; GPA: 3.97** | May. 2014 -- May. 2015
+
+### Monmouth University -- West Long Branch, NJ
+**Bachelor of Science, Software Engineering; Minor in Mathematics; GPA: 3.44** | Sept. 2010 -- May. 2014
+
+## Experience
+
+### Teachable -- New York, NY
+**Staff Engineer** | Apr 2025 - Present
+- **B2B Product Team Lead**: Led a 5-engineer team delivering Teachable's B2B offering from zero to production. Drove end-to-end ownership: product engineering roadmap, system architecture within a legacy monolith, cross-functional project facilitation, and hands-on technical guidance for engineers. Delivered on time in November 2025.
+- **File Migration Tiger Team**: Led a 5-engineer tiger team migrating all Teachable-hosted files and content away from a third-party vendor under a strict deadline, working 80+ hours per week. Designed performant migration scripts covering database scanning, file integrity validation, reference integrity, rich text parsing, and consistent file upload patterns across all Teachable products. (*TODO: add metrics -- files migrated, cost savings, duration*)
+- **Platform Reliability & Reporting**: Architected improvements to Teachable's user reporting and export platform to address reliability and scale concerns for large datasets. Authored Apache Airflow ETL pipelines and managed AWS DMS change data capture configurations to enrich the platform's data footprint. Built a Golang microservice integrating with DataHub's streaming service to deliver enriched datasets as NDJSON -- establishing a real-time data exposure layer within the Teachable product.
+- **Services Guild**: As Guild Co-Lead, facilitated cross-team discussion sessions on microservice design, service communication, and architectural decision-making -- encouraging engineers to think critically and objectively about technical choices to drive personal and organizational growth.
+
+**Senior Software Engineer II; Growth Revenue** | Mar 2023 - Apr 2025
+- **Plan Service Adoption**: With VP of Engineering and VP of Product support, led an initiative for all product engineering teams to migrate their domains to School Plan Service -- decoupling the platform from hard-coded plan names and establishing a flexible foundation for future subscription tiers.
+- **Revenue Initiatives**: Introduced two new revenue streams: Plan Addons and One-Time Purchases. Designed and implemented the Plan Addon platform across two services; implemented One-Time Purchases using a state machine and monadic patterns for reliability, recoverability, and ease of maintenance.
+- **School Plan Service**: Designed and built Teachable's first Golang microservice, achieving an average 2ms response time and 27k+ requests per minute -- the second-highest throughput application in the stack. Integrated with Chargebee for structured, consistent school plan management across the platform.
+- **School Deactivation**: Co-designed a platform-wide pattern to deactivate schools and all related dependencies and associations consistently across Teachable's services.
+- **Services Guild**: Founded Teachable's Services Guild and facilitated discussion sessions on service communication patterns, domain-driven design, testing methodologies, and architectural trade-offs -- fostering critical thinking and technical growth across the engineering team. Produced a reference microservice template enabling engineers to go from zero to production using Hotmart's infrastructure tooling.
+
+**Senior Software Engineer I; Student Experience Team Lead** | Aug 2020 - Mar 2023
+- **Video Platform Migration**: Led the full lifecycle of Teachable's student video platform migration from Wistia to Hotmart Video Player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets.
+- **Team & Guild Lead**: Served as Team Lead and Backend Guild Lead, mentoring engineers and driving cross-team platform initiatives and dependency upgrades across the engineering organization.
+- **On-Call Operability**: Co-led Teachable's On-Call Operability program; built and maintained processes for stakeholder management, alerting, engineer readiness, playbook design, and hosted simulated incidents to train and prepare the engineering organization.
+- **Page Generation Microservice**: Designed and built a microservice for server-side page generation, precompiling user-data-enriched page templates ready for consumption by a monorepo frontend package.
+
+**Software Engineer; Core** | Mar 2019 - Aug 2020
+- **Page Editor v2**: Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.
+
+### Mack Weldon -- New York, NY
+**Full Stack Software Engineer** | Sept 2015 - March 2019
+- **E-Commerce Platform**: Developed new and maintained existing product features. Built with Rails, Backbone/Marionette, and Spree/Solidus e-Commerce SPA
+- **Loyalty Program**: Custom product solution designed and devloped for Mack Weldon's first loyaly program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
+- **Data Warehouse**: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchaise inventory platforms.
+- **Shopify POS System**: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
+- **Peanut Butter and Jelly (PBJ)**: CMS Application that expedited content creation, landing, and platform pages. Reduced our workload roughly 70%. Integration with Contentful CMS. Deployed and hosted on AWS S3.
+
+## Apps
+
+- **Dashcoop**: A Roku screensaver that displays the current time and weather in an intuitive dashboard layout. Highly customizable. Configure your location, clock format, units of measurement, screen dimmer, and much more. Backend server written in Ruby and Sinatra. Integrates WeatherAPI's Weather and Google’s Geocoding APIs. 9,300+ cumulative downloads to date.
+
+## Projects
+
+- **Kane Brewery Management System**: A Rails full stack brewery management system that keeps track of in-progress and finished product. A cost effective solution for small-scale breweries and wineries that wish to separate themselves from redundant inventory tracking methods.
+
+## Technical Skills
+
+- **Languages**: Ruby/Rails (11 yrs), Golang (3 yrs), JavaScript, HTML/CSS, SQL, BrightScript
+- **Technologies**: Microservice Architecture, AWS, Kubernetes, GitHub Actions, System Design, Performance & Observability, Testing Methodologies
+- **Core Skills**: Cross-Functional Leadership, Mentoring, Teamwork, User Empathy

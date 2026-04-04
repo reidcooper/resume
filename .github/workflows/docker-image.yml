@@ -29,6 +29,8 @@ jobs:
           sudo sed -i '/pattern="PDF"/s/rights="none"/rights="read|write"/' /etc/ImageMagick-*/policy.xml
           convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[0]' -resize 25% resume_preview_p1.png
           convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[1]' -resize 25% resume_preview_p2.png
+      - name: Generate markdown and plain text
+        run: python3 scripts/tex_to_formats.py
       - uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: Apply pdflatex changes
