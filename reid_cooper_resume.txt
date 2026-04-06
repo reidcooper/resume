@@ -33,7 +33,7 @@ Services Guild: Founded Teachable's Services Guild and facilitated discussion se
 Senior Software Engineer I; Student Experience Team Lead | Aug 2020 - Mar 2023
 Video Platform Migration: Led the full lifecycle of Teachable's student video platform migration from Wistia to an in-house video player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets.
 Team & Guild Lead: Served as Team Lead and Backend Guild Lead, mentoring engineers and driving cross-team platform initiatives and dependency upgrades across the engineering organization.
-On-Call Operability: Co-led Teachable's On-Call Operability program; built and maintained processes for stakeholder management, alerting, engineer readiness, playbook design, and hosted simulated incidents to train and prepare the engineering organization.
+On-Call Operability: Co-led Teachable's On-Call Operability program; built and maintained processes for alerting, engineer readiness, and playbook design, and hosted simulated incidents to train and prepare the engineering organization.
 Page Generation Microservice: Designed and built a microservice for server-side page generation, precompiling user-data-enriched page templates ready for consumption by a monorepo frontend package.
 
 Software Engineer; Core | Mar 2019 - Aug 2020
@@ -41,19 +41,18 @@ Page Editor v2: Designed and built Page Editor v2, replacing the legacy school p
 
 Mack Weldon -- New York, NY
 Full Stack Software Engineer | Sept 2015 - March 2019
-E-Commerce Platform: Developed new and maintained existing product features. Built with Rails, Backbone/Marionette, and Spree/Solidus e-Commerce SPA
-Loyalty Program: Custom product solution designed and devloped for Mack Weldon's first loyaly program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
-Data Warehouse: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchaise inventory platforms.
+Loyalty Program: Custom product solution designed and developed for Mack Weldon's first loyalty program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
+Data Warehouse: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchandise inventory platforms.
 Shopify POS System: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
 Peanut Butter and Jelly (PBJ): CMS Application that expedited content creation, landing, and platform pages. Reduced our workload roughly 70%. Integration with Contentful CMS. Deployed and hosted on AWS S3.
 
 Apps
 
-Dashcoop: A Roku screensaver that displays the current time and weather in an intuitive dashboard layout. Highly customizable. Configure your location, clock format, units of measurement, screen dimmer, and much more. Backend server written in Ruby and Sinatra. Integrates WeatherAPI's Weather and Google’s Geocoding APIs. 9,300+ cumulative downloads to date.
+Dashcoop: Highly customizable Roku screensaver displaying real-time weather and clock data, available since 2018. Ruby/Sinatra backend integrating WeatherAPI and Google Geocoding. 9,300+ cumulative downloads.
 
 Projects
 
-Kane Brewery Management System: A Rails full stack brewery management system that keeps track of in-progress and finished product. A cost effective solution for small-scale breweries and wineries that wish to separate themselves from redundant inventory tracking methods.
+Kane Brewery Management System: Full-stack Rails brewery management system for tracking in-progress and finished product inventory -- a cost-effective solution for small-scale breweries and wineries.
 
 Technical Skills
 
