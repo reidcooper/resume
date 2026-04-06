@@ -48,7 +48,26 @@ Sections in order: Summary → Education → Experience → Apps → Projects �
 
 ## Known TODOs in the resume
 
-- The **Staff Engineer → File Migration Tiger Team** bullet has a `TODO` placeholder for real metrics (files migrated, cost savings, duration). Leave it until Reid provides the actual numbers.
+- The **Staff Engineer → File Migration Tiger Team** bullet has a `TODO` placeholder for cost savings. Leave it until Reid provides the number.
+- The **Senior Software Engineer II → Revenue Initiatives** bullet has a `TODO` to locate revenue impact figures.
+
+## Personal website sync
+
+The personal website lives at `https://me.reidcooper.dev` (repo: `reidcooper/reidcooper.github.io`).
+
+**After any resume session that changes content, always check whether the website needs updating.**
+
+The website mirrors a subset of the resume:
+- `Languages & Skills` → Skills section in `index.html` (Languages, Technical, Core Skills, AI Tools lines)
+- `Apps / Projects` → Apps & Projects section in `index.html`
+- `Experience` → Experience section in `index.html` (company + role only, no bullets)
+
+**If the local repo is not present** at `/Users/reid/code/reidcooper.github.io`, prompt the user:
+```sh
+git clone git@github.com:reidcooper/reidcooper.github.io.git /Users/reid/code/reidcooper.github.io
+```
+
+When syncing, keep the site's minimal terminal aesthetic — no structural changes, just content updates.
 
 ## Building locally
 
