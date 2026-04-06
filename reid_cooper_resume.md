@@ -57,5 +57,6 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 ## Technical Skills
 
 - **Languages**: Ruby/Rails (11 yrs), Golang (3 yrs), JavaScript, HTML/CSS, SQL, BrightScript
-- **Technologies**: Microservice Architecture, AWS, Kubernetes, GitHub Actions, System Design, Performance & Observability, Testing Methodologies
-- **Core Skills**: Cross-Functional Leadership, Mentoring, Teamwork, User Empathy
+- **Technologies**: Microservice Architecture, AWS, Kubernetes, Docker, Terraform, PostgreSQL, Redis, Datadog, System Design, Performance & Observability
+- **Core Skills**: Technical Strategy, Cross-Functional Leadership, Organizational Influence, Stakeholder Communication, Incident Command, Mentoring
+- **AI Tools**: GitHub Copilot, Claude, ChatGPT
