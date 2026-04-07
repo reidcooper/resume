@@ -32,7 +32,7 @@ Software Engineer; Core | 1.5 yrs
 Page Editor v2: Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.
 
 Mack Weldon -- New York, NY · 3.5 yrs
-Full Stack Software Engineer | 3.5 yrs
+Full Stack Software Engineer | 
 Loyalty Program: Custom product solution designed and developed for Mack Weldon's first loyalty program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
 Data Warehouse: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchandise inventory platforms.
 Shopify POS System: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
