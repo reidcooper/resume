@@ -8,31 +8,31 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 
 ## Experience
 
-### Teachable -- New York, NY
-**Staff Engineer** | Apr 2025 - Present
+### Teachable -- New York, NY · 7 yrs
+**Staff Engineer** | 1 yr
 - **B2B Product Team Lead**: Led a 5-engineer team delivering Teachable's B2B offering from zero to production under a crucial, strict end-of-November deadline. Drove end-to-end ownership: product engineering roadmap, system architecture within a legacy monolith, cross-functional project facilitation, and hands-on technical guidance for engineers. Delivered on time in November 2025 -- a full 0-to-production effort in under 4 months -- driving 115 beta schools onboarded (150+ on waitlist), 2,060 students enrolled with 100% growth in 2 weeks, and a Q1 closed sale.
 - **File Migration Tiger Team**: Led a 5-engineer tiger team migrating all Teachable-hosted files and content away from Filestack under a strict 9-week deadline, working 80+ hours per week. Designed performant migration scripts spanning 5 repositories -- covering 30M+ database record updates across 45+ table/column pairs, file integrity validation, reference integrity, rich text parsing, and consistent upload patterns across 56+ locations. Successfully migrated 15 million files on time, saving approximately $500,000 per year.
 - **Platform Reliability & Reporting**: Architected improvements to Teachable's user reporting and export platform to address reliability and scale concerns for large datasets. Authored Apache Airflow ETL pipelines and managed AWS DMS change data capture configurations to enrich the platform's data footprint. Built a Golang microservice integrating with an internal data warehouse's streaming service to deliver enriched datasets as NDJSON -- establishing a real-time data exposure layer within the Teachable product.
 - **Services Guild**: As Guild Co-Lead, facilitated cross-team discussion sessions on microservice design, service communication, and architectural decision-making -- encouraging engineers to think critically and objectively about technical choices to drive personal and organizational growth.
 
-**Senior Software Engineer II; Growth Revenue** | Mar 2023 - Apr 2025
+**Senior Software Engineer II; Growth Revenue** | 2 yrs
 - **Plan Service Adoption**: With senior leadership support, led an initiative for all product engineering teams to migrate their domains to a centralized school capabilities service -- decoupling the platform from hard-coded plan names and establishing a flexible foundation for future subscription tiers.
 - **Revenue Initiatives**: Introduced two new revenue streams: Plan Addons and Captions -- together representing approximately 1% of company revenue. Designed and implemented both using state machine and monadic patterns for reliability, recoverability, and ease of maintenance -- Plan Addons spanning two services.
 - **School Capabilities Service**: Designed and built Teachable's first Golang microservice, achieving an average 2ms response time and 27k+ requests per minute -- the second-highest throughput application in the stack. Integrated with Chargebee for structured, consistent school plan management across the platform.
 - **School Deactivation**: Co-designed a platform-wide pattern to deactivate schools and all related dependencies and associations consistently across Teachable's services.
 - **Services Guild**: Founded Teachable's Services Guild and facilitated discussion sessions on service communication patterns, domain-driven design, testing methodologies, and architectural trade-offs -- fostering critical thinking and technical growth across the engineering team. Produced a reference microservice template enabling engineers to go from zero to production using Hotmart's infrastructure tooling.
 
-**Senior Software Engineer I; Student Experience Team Lead** | Aug 2020 - Mar 2023
+**Senior Software Engineer I; Student Experience Team Lead** | 2.5 yrs
 - **Video Platform Migration**: Led the full lifecycle of Teachable's student video platform migration from Wistia to Hotmart's in-house video player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets, reducing video hosting costs by 70%.
 - **Team & Guild Lead**: Served as Team Lead and Backend Guild Lead, mentoring engineers and driving cross-team platform initiatives and dependency upgrades across the engineering organization.
 - **On-Call Operability**: Co-led Teachable's On-Call Operability program; built and maintained processes for alerting, engineer readiness, and playbook design, and hosted simulated incidents to train and prepare the engineering organization.
 - **Page Generation Microservice**: Designed and built a microservice for server-side page generation, precompiling user-data-enriched page templates ready for consumption by a monorepo frontend package.
 
-**Software Engineer; Core** | Mar 2019 - Aug 2020
+**Software Engineer; Core** | 1.5 yrs
 - **Page Editor v2**: Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.
 
-### Mack Weldon -- New York, NY
-**Full Stack Software Engineer** | Sept 2015 - March 2019
+### Mack Weldon -- New York, NY · 3.5 yrs
+**Full Stack Software Engineer** | 3.5 yrs
 - **Loyalty Program**: Custom product solution designed and developed for Mack Weldon's first loyalty program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
 - **Data Warehouse**: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchandise inventory platforms.
 - **Shopify POS System**: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
