@@ -8,7 +8,7 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 
 ## Experience
 
-### Teachable -- New York, NY · 7 yrs
+### Teachable -- New York, NY · Mar 2019 -- Present · 7 yrs
 **Staff Engineer** | 1 yr
 - **B2B Product Team Lead**: Led a 5-engineer team delivering Teachable's B2B offering from zero to production under a crucial, strict end-of-November deadline. Drove end-to-end ownership: product engineering roadmap, system architecture within a legacy monolith, cross-functional project facilitation, and hands-on technical guidance for engineers. Delivered on time in November 2025 -- a full 0-to-production effort in under 4 months -- driving 115 beta schools onboarded (150+ on waitlist), 2,060 students enrolled with 100% growth in 2 weeks, and a Q1 closed sale.
 - **File Migration Tiger Team**: Led a 5-engineer tiger team migrating all Teachable-hosted files and content away from Filestack under a strict 9-week deadline, working 80+ hours per week. Designed performant migration scripts spanning 5 repositories -- covering 30M+ database record updates across 45+ table/column pairs, file integrity validation, reference integrity, rich text parsing, and consistent upload patterns across 56+ locations. Successfully migrated 15 million files on time, saving approximately $500,000 per year.
@@ -31,7 +31,7 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 **Software Engineer; Core** | 1.5 yrs
 - **Page Editor v2**: Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.
 
-### Mack Weldon -- New York, NY · 3.5 yrs
+### Mack Weldon -- New York, NY · Sept 2015 -- Mar 2019 · 3.5 yrs
 **Full Stack Software Engineer** | 
 - **Loyalty Program**: Custom product solution designed and developed for Mack Weldon's first loyalty program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
 - **Data Warehouse**: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchandise inventory platforms.
