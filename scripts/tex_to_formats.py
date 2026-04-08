@@ -291,12 +291,14 @@ def render_markdown(events: list) -> str:
             dates = md_inline(ev["dates"])
             lines.append(f"### {company} -- {location}")
             lines.append(f"**{title}** | {dates}")
+            lines.append("")
 
         elif t == "subsubheading":
             lines.append("")
             title = md_inline(ev["title"])
             dates = md_inline(ev["dates"])
             lines.append(f"**{title}** | {dates}")
+            lines.append("")
 
         elif t == "item":
             title = md_inline(ev["title"])
