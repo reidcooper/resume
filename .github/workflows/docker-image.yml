@@ -31,6 +31,10 @@ jobs:
           convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[1]' -resize 25% resume_preview_p2.png
       - name: Generate markdown and plain text
         run: python3 scripts/tex_to_formats.py
+      - name: Generate Word document
+        run: |
+          sudo apt-get install -y pandoc
+          pandoc reid_cooper_resume.md -o reid_cooper_resume.docx
       - uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: Apply pdflatex changes
