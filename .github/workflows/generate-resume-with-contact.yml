@@ -1,0 +1,53 @@
+name: Generate Resume with Contact Info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Build resume with phone number
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v6.0.2
+
+      - name: Inject phone number
+        run: |
+          sed -i 's/PHONE_PLACEHOLDER/${{ secrets.PHONE_NUMBER }}/g' reid_cooper_resume.tex
+
+      - name: Compile PDF
+        uses: addnab/docker-run-action@v3
+        with:
+          image: thomasweise/docker-texlive-full:latest
+          options: -v ${{ github.workspace }}:/data
+          run: |
+            cd data
+            pdflatex reid_cooper_resume.tex
+
+      - name: Generate preview images
+        run: |
+          sudo apt-get install -y imagemagick ghostscript
+          sudo sed -i '/pattern="PDF"/s/rights="none"/rights="read|write"/' /etc/ImageMagick-*/policy.xml
+          convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[0]' -resize 25% resume_preview_p1.png
+          convert -background white -alpha background -alpha off -density 600 'reid_cooper_resume.pdf[1]' -resize 25% resume_preview_p2.png
+
+      - name: Generate markdown and plain text
+        run: python3 scripts/tex_to_formats.py
+
+      - name: Generate Word document
+        run: |
+          sudo apt-get install -y pandoc
+          pandoc reid_cooper_resume.md -o reid_cooper_resume.docx
+
+      - name: Upload resume artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-with-contact
+          path: |
+            reid_cooper_resume.pdf
+            reid_cooper_resume.md
+            reid_cooper_resume.txt
+            reid_cooper_resume.docx
+            resume_preview_p1.png
+            resume_preview_p2.png
+          retention-days: 30

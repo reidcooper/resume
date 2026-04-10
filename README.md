@@ -24,6 +24,21 @@ This requires Docker (for LaTeX/PDF), ImageMagick (for preview PNGs), and Pandoc
 
 > **Do not edit generated files directly.** The source of truth is `reid_cooper_resume.tex`.
 
+### Generating a resume with your phone number
+
+The phone number is intentionally omitted from the committed source and generated files to avoid public exposure. To build a version with your phone number included:
+
+1. **One-time setup:** Add your number as a repository secret:
+   GitHub → repo **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+   - Name: `PHONE_NUMBER`
+   - Value: your phone number (e.g. `+1-212-555-0100`)
+
+2. **When you need a copy:** Go to **Actions** → **Generate Resume with Contact Info** → **Run workflow** → **Run workflow**
+
+3. **Download:** Once the run completes, click into it and download the **`resume-with-contact`** artifact ZIP. It contains all formats with your number included.
+
+> The artifact is retained for 30 days and is only accessible to repo collaborators. Nothing with your phone number is ever committed back to the repo.
+
 ### License
 
 Format is MIT but all the data is owned by Reid Cooper.
