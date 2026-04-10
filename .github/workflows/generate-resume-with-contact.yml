@@ -40,7 +40,7 @@ jobs:
           pandoc reid_cooper_resume.md -o reid_cooper_resume.docx
 
       - name: Upload resume artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: resume-with-contact
           path: |
