@@ -4,7 +4,7 @@
 
 ## Summary
 
-Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializing in microservice architecture, distributed systems, and platform reliability. Known for leading high-stakes engineering initiatives, scaling engineering culture through guilds and mentorship, and delivering complex systems across cross-functional teams at scale.
+Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializing in microservice architecture, distributed systems, and platform reliability. Known for leading high-stakes engineering initiatives that deliver measurable business outcomes -- $6M+ in new ARR, $500k in annual cost savings, and 20% reduction in logo churn. Scales engineering culture through guilds, mentorship, and AI enablement across cross-functional teams at scale.
 
 ## Experience
 
