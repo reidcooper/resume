@@ -13,7 +13,7 @@ jobs:
 
       - name: Inject phone number
         run: |
-          sed -i 's/PHONE_PLACEHOLDER/${{ secrets.PHONE_NUMBER }}/g' reid_cooper_resume.tex
+          sed -i 's/PHONEPLACEHOLDER/${{ secrets.PHONE_NUMBER }}/g' reid_cooper_resume.tex
 
       - name: Compile PDF
         uses: addnab/docker-run-action@v3
