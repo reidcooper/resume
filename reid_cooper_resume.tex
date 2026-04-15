@@ -77,6 +77,15 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeSubheadingWithDesc}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small\textit{#3} & \\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -108,8 +117,9 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
+    \resumeSubheadingWithDesc
       {Teachable}{New York, NY · Mar 2019 -- Present · 7 yrs}
+      {Ed-tech SaaS · Multi-tenant · \textasciitilde100-person engineering org}
       {Staff Engineer}{1 yr}
       \resumeItemListStart
         \resumeItem{B2B Product Team Lead}
@@ -157,8 +167,9 @@
           {Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.}
       \resumeItemListEnd
 
-    \resumeSubheading
+    \resumeSubheadingWithDesc
       {Mack Weldon}{New York, NY · Sept 2015 -- Mar 2019 · 3.5 yrs}
+      {DTC e-commerce · Ruby on Rails}
       {Full Stack Software Engineer}{}
       \resumeItemListStart
         \resumeItem{Loyalty Program}
