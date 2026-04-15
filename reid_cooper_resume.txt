@@ -26,10 +26,8 @@ Services Guild -- Founder: Founded Teachable's Services Guild and facilitated se
 
 Senior Software Engineer I · Student Experience | 2.5 yrs
 
-Video Platform Migration: Led the full lifecycle of Teachable's student video platform migration from Wistia to Hotmart's in-house video player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets, reducing video hosting costs from $3M to $1M annually.
-Team & Guild Lead: Served as Team Lead and Backend Guild Lead, mentoring engineers and driving cross-team platform initiatives and dependency upgrades across the engineering organization.
-On-Call Operability: Co-led Teachable's On-Call Operability program; built and maintained processes for alerting, engineer readiness, and playbook design, and hosted simulated incidents to train and prepare the engineering organization.
-Page Generation Microservice: Designed and built a microservice for server-side page generation, precompiling user-data-enriched page templates ready for consumption by a monorepo frontend package.
+Video Infrastructure Migration ($2M/yr Cost Reduction): Led the full lifecycle of Teachable's student video platform migration from Wistia to Hotmart's in-house video player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets, reducing video hosting costs from $3M to $1M annually.
+On-Call & Incident Readiness: Co-led Teachable's On-Call Operability program; built and maintained processes for alerting, engineer readiness, and playbook design, and hosted simulated incidents to train and prepare the engineering organization.
 
 Software Engineer · Core | 1.5 yrs
 
