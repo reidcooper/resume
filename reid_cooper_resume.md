@@ -43,23 +43,15 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 - **Shopify POS System**: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
 - **Peanut Butter and Jelly (PBJ)**: CMS Application that expedited content creation, landing, and platform pages. Reduced our workload roughly 70%. Integration with Contentful CMS. Deployed and hosted on AWS S3.
 
-## Apps
-
-- **Dashcoop**: Highly customizable Roku screensaver displaying real-time weather and clock data, available since 2018. Ruby/Sinatra backend integrating WeatherAPI and Google Geocoding. 9,300+ cumulative downloads.
-
 ## Education
 
 ### Monmouth University -- West Long Branch, NJ
-**Master's of Science, Software Engineering; GPA: 3.97** | 
-
-
-### Monmouth University -- West Long Branch, NJ
-**Bachelor of Science, Software Engineering; Minor in Mathematics; GPA: 3.44** | 
+**M.S. & B.S., Software Engineering | Minor in Mathematics** | 
 
 
 ## Technical Skills
 
 - **Languages**: Ruby/Rails (11 yrs), Golang (3 yrs), JavaScript, HTML/CSS, SQL, BrightScript
-- **Technologies**: Microservice Architecture, AWS, Kubernetes, Docker, Terraform, PostgreSQL, Redis, Datadog, System Design, Performance & Observability
+- **Technologies**: Microservice Architecture, AWS, Kubernetes, Docker, Terraform, PostgreSQL, Redis, Datadog, New Relic, System Design, Performance & Observability
 - **Core Skills**: Technical Strategy, Cross-Functional Leadership, Organizational Influence, Stakeholder Communication, Incident Command, Mentoring
 - **AI Tools**: GitHub Copilot, Claude, ChatGPT
