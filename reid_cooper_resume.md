@@ -36,10 +36,6 @@ Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializi
 ### Mack Weldon -- New York, NY · Sept 2015 -- Mar 2019 · 3.5 yrs
 **DTC e-commerce · Ruby on Rails** | Software Engineer
 
-- **Loyalty Program**: Custom product solution designed and developed for Mack Weldon's first loyalty program, Weldon Blue. A rule based engine that offered tiered-based benefits to our customers before checkout.
-- **Data Warehouse**: Built first revision of Mack Weldon's founding data warehouse. Built using AWS Redshift, Data Pipelines, and SegmentIO. Streamed data from marketing, core e-commerce, and merchandise inventory platforms.
-- **Shopify POS System**: Designed and developed message broker integration using RabbitMQ to link core e-commerce platform with Shopify's POS system to help launch Mack Weldon's first store location in Hudson Yards, NYC.
-- **Peanut Butter and Jelly (PBJ)**: CMS Application that expedited content creation, landing, and platform pages. Reduced our workload roughly 70%. Integration with Contentful CMS. Deployed and hosted on AWS S3.
 
 ## Education
 
