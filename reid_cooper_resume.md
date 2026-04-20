@@ -8,7 +8,7 @@ Staff Engineer specializing in platform architecture, large-scale migrations, an
 
 ## Experience
 
-### Teachable (Hotmart) -- New York, NY · Mar 2019 -- Present · 7 yrs
+### Teachable (Hotmart) -- New York, NY · Mar 2019 -- Present
 **Ed-tech SaaS · Multi-tenant · 100-person engineering org** | Staff Engineer
 
 - **Zero-to-One B2B Product (3-Month Delivery)**: Led a 5-engineer team delivering Teachable's B2B offering from zero to production under a strict end-of-November deadline. Drove end-to-end ownership: product engineering roadmap, system architecture, cross-functional project facilitation, and technical mentorship -- conducting architecture and design reviews, mitigating risk, and empowering independent technical judgment. Delivered on time in November 2025 -- a 0-to-production effort in 3 months -- driving 115 beta schools onboarded (150+ on waitlist), 2,060 students enrolled with 100% growth in 2 weeks, and a Q1 closed sale.
@@ -16,7 +16,7 @@ Staff Engineer specializing in platform architecture, large-scale migrations, an
 - **Real-Time Data Layer & Reporting Platform**: Architected improvements to Teachable's user reporting and export platform to address reliability and scale concerns for large datasets. Authored Apache Airflow ETL pipelines and managed AWS DMS change data capture configurations to enrich the platform's data footprint. Built a Golang microservice integrating with an internal data warehouse's streaming service to deliver enriched datasets as NDJSON -- establishing a real-time data exposure layer within the Teachable product.
 - **Engineering Guild -- AI & Service Design**: As Guild Co-Lead, facilitated cross-team sessions spanning microservice design, architectural decision-making, and AI enablement -- shaping how the engineering organization approaches AI as a discipline. Ran workshops on getting started, defining effective usage, context management, and incremental value -- creating space for engineers to surface struggles, identify problems to solve with AI, and explore hands-on.
 
-**Senior Software Engineer II · Growth & Revenue** | 2 yrs
+**Senior Software Engineer II · Growth & Revenue** | 2022 -- 2024
 
 - **Platform-Wide Entitlement Decoupling (+$6M ARR)**: With senior leadership support, led an initiative for all product engineering teams to migrate their domains to a centralized school capabilities service -- decoupling the platform from hard-coded plan names and establishing a flexible foundation for future subscription tiers. Authored technical and product documentation -- covering migration patterns, risk areas, and definition of done -- and held open pairing sessions with engineers across teams, enabling each to lead their own domain migrations. Spanned 150+ locations across 3 applications; teams completed migrations in as little as 2 weeks -- drove a 21% revenue increase, generating +$6M in new ARR.
 - **Revenue & Retention Impact**: Introduced two new revenue streams: Plan Addons and Captions -- together generating $350K in new revenue over 2 years. Designed and implemented both using state machine and monadic patterns for reliability, recoverability, and ease of maintenance -- Plan Addons spanning two services.
@@ -24,12 +24,12 @@ Staff Engineer specializing in platform architecture, large-scale migrations, an
 - **School Deactivation**: Co-designed a platform-wide pattern to deactivate schools and all related dependencies and associations consistently across Teachable's services, resulting in a 20% reduction in logo churn.
 - **Services Guild -- Founder**: Founded Teachable's Services Guild and facilitated sessions on service design, domain-driven design, and architectural trade-offs -- growing technical culture across the engineering team. Produced a reference microservice template enabling engineers to go from zero to production using Hotmart's infrastructure tooling, and led the creation of 5+ microservices across the team.
 
-**Senior Software Engineer I · Student Experience** | 2.5 yrs
+**Senior Software Engineer I · Student Experience** | 2020 -- 2022
 
 - **Video Infrastructure Migration ($2M/yr Cost Reduction)**: Led the full lifecycle of Teachable's student video platform migration from Wistia to Hotmart's in-house video player -- redesigning integrations across 5+ products, maintaining full course compliance system integrity, and executing the end-to-end migration of 8 million video assets, reducing video hosting costs from $3M to $1M annually.
 - **On-Call & Incident Readiness**: Co-led Teachable's On-Call Operability program; built and maintained processes for alerting, engineer readiness, and playbook design, and hosted simulated incidents to train and prepare the engineering organization.
 
-**Software Engineer · Core** | 1.5 yrs
+**Software Engineer · Core** | 2019 -- 2020
 
 - **Page Editor v2**: Designed and built Page Editor v2, replacing the legacy school page builder with an extensible content creation toolkit -- including new page-building capabilities and a managed data migration path for existing users.
 
