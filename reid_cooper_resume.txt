@@ -4,7 +4,7 @@ reid.cooper8@gmail.com | PHONEPLACEHOLDER | https://me.reidcooper.dev
 
 Summary
 
-Staff Engineer with 11+ years of Ruby on Rails and 3 years of Golang, specializing in microservice architecture, distributed systems, and platform reliability. Known for leading high-stakes engineering initiatives that deliver measurable business outcomes -- $6M+ in new ARR, $500k in annual cost savings, and 20% reduction in logo churn. Scales engineering culture through guilds, mentorship, and AI enablement across cross-functional teams at scale.
+Staff Engineer specializing in platform architecture, large-scale migrations, and building the systems and culture that let engineering organizations scale. 11+ years in Ruby on Rails, 3 years in Golang. Seeks out high-ambiguity, cross-cutting problems --- vendor eliminations under hard deadlines, platform-wide decoupling initiatives spanning dozens of teams, and zero-to-one product builds. Identifies architectural leverage points, establishes patterns that enable independent execution, and builds durable technical culture through guilds, pairing, and architectural review.
 
 Experience
 
