@@ -32,7 +32,7 @@ Staff Engineer specializing in platform architecture, large-scale migrations, an
 
 - **Page Editor v2**: Designed and built the platform's v2 page editor -- replacing the legacy page builder with an extensible content creation toolkit and managed data migration path.
 
-### Mack Weldon -- New York, NY · Sept 2015 -- Mar 2019 · 3.5 yrs
+### Mack Weldon -- New York, NY · Sept 2015 -- Mar 2019
 **DTC e-commerce · Ruby on Rails** | Software Engineer
 
 
