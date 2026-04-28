@@ -4,7 +4,7 @@ reid.cooper8@gmail.com | PHONEPLACEHOLDER | https://me.reidcooper.dev
 
 Summary
 
-Staff Engineer specializing in platform architecture, large-scale migrations, and building the systems and culture that let engineering organizations scale. 11+ years in Ruby on Rails, 3 years in Golang. Seeks out high-ambiguity, cross-cutting problems --- vendor eliminations under hard deadlines, platform-wide decoupling initiatives spanning dozens of teams, and zero-to-one product builds. Identifies architectural leverage points, establishes patterns that enable independent execution, and builds durable technical culture through guilds, pairing, and architectural review.
+Staff Engineer specializing in platform architecture, large-scale migrations, and building the systems and culture that let engineering organizations scale. 11+ years in Ruby on Rails, 3+ years in Golang. Seeks out high-ambiguity, cross-cutting problems --- vendor eliminations under hard deadlines, platform-wide decoupling initiatives spanning dozens of teams, and zero-to-one product builds. Identifies architectural leverage points, establishes patterns that enable independent execution, and builds durable technical culture through guilds, pairing, and architectural review.
 
 Experience
 
@@ -40,7 +40,7 @@ M.S. & B.S., Software Engineering | Minor in Mathematics |
 
 Technical Skills
 
-Languages: Ruby/Rails (11 yrs), Golang (3 yrs), JavaScript, HTML/CSS, SQL, BrightScript
+Languages: Ruby/Rails (11 yrs), Golang (3+ yrs), JavaScript, HTML/CSS, SQL, BrightScript
 Technologies: Microservice Architecture, AWS, Kubernetes, Docker, Terraform, PostgreSQL, Redis, Datadog, New Relic, System Design, Performance & Observability
 Core Skills: Technical Strategy, Cross-Functional Leadership, Organizational Influence, Stakeholder Communication, Incident Command, Mentoring
 AI Tools: GitHub Copilot, Claude, ChatGPT
